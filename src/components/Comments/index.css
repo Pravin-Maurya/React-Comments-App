@@ -1,0 +1,155 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    margin-top: 80px;
+  }
+}
+.comment-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .comment-input-container {
+    width: 75%;
+    max-width: 1100px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+}
+.comments-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .comments-inputs {
+    flex-direction: row;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+@media screen and (min-width: 768px) {
+  .form {
+    width: 30%;
+    min-width: 300px;
+    order: 0;
+  }
+}
+.say-something {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.name-input {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  height: 42px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+}
+.comment-input {
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+}
+.add-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  margin-top: 15px;
+  min-width: 60px;
+  align-self: flex-start;
+  outline: none;
+  cursor: pointer;
+}
+.comment-img {
+  width: 300px;
+  height: 220px;
+}
+@media screen and (min-width: 768px) {
+  .comment-img {
+    width: 400px;
+    height: 300px;
+  }
+}
+.horizontal-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 15px;
+}
+.comment {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.count-comment {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+.comment-list {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.initialClassName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 17.5px;
+  margin-top: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}

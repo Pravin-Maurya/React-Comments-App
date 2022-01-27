@@ -1,0 +1,136 @@
+.amber {
+  background-color: #f59e0b;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.blue {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.orange {
+  background-color: #f97316;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.emerald {
+  background-color: #10b981;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.teal {
+  background-color: #14b8a6;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.red {
+  background-color: #b91c1c;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+}
+.initial-name-time {
+  display: flex;
+}
+.initialClassName {
+  display: flex;
+}
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin: 0;
+  padding-left: 8px;
+  padding-bottom: 7px;
+  padding-top: 4px;
+}
+
+.username-time-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.username {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-self: center;
+}
+
+.time {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.comment {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.like-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.active {
+  color: #0ea5e9;
+}
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+
+.comment-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
